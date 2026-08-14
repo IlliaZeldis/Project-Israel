@@ -1,549 +1,336 @@
 <!doctype html>
 <html lang="uk">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Фінальний проєкт</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">    
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">                  
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
-    </head>
-    <body id="top">
-        <main>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <i class="bi-back"></i>
-                        <span>Проєкт</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Головна сторінка</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Досягнення</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Контакти</a>
-                            </li>
-                        </ul>
-                    </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Фінальний проєкт — Досягнення Ізраїлю">
+    <title>Досягнення Ізраїлю</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+<main>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#section_1">
+                <i class="bi bi-back"></i>
+                <span>Проєкт</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Відкрити меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#section_1">Головна сторінка</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section_2">Досягнення</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section_5">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+        <div class="hero-decoration hero-decoration-one"></div>
+        <div class="hero-decoration hero-decoration-two"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-8 col-12 mx-auto">
+                    <h1 class="text-white text-center">Фінальний проєкт</h1>
+                    <h6 class="text-center">Досягнення Ізраїлю</h6>
                 </div>
-            </nav>
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Фінальний проєкт</h1>
-                            <h6 class="text-center">Досягнення Ізраїлю</h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="featured-section">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                            <div class="custom-block bg-white shadow-lg">
-                                    <div class="d-flex">
-                                        <div>
-                                            <h6 class="text-center">Автор</h6>
-                                            <h5 class="mb-2">Ілля Зельдіс</h5>
-                                            <p class="mb-0">
-                                                <ul>
-                                                    <li>Учень 10 класу Запорізького ліцею "ОРТ-Алеф"</li>
-                                                    <li>Учасник олімпіади з історії єврейського народу "Хефциба" у 2023/2024 навч. році</li>
-                                                    <li>Відмінник</li>
-                                                </ul>
-                                            </p>
-                                        </div>
-                                        <span class="badge bg-design rounded-pill ms-auto">16</span>
-                                    </div>
-                                    <img src="images/Илья.jpg" class="custom-block-image img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8 col-12">
+                    <div class="custom-block bg-white shadow-lg author-card">
+                        <div class="d-flex">
+                            <div>
+                                <h6 class="text-center">Автор</h6>
+                                <h5 class="mb-2">Ілля Зельдіс</h5>
+                                <ul>
+                                    <li>Учень 10 класу Запорізького ліцею "ОРТ-Алеф"</li>
+                                    <li>Учасник олімпіади з історії єврейського народу "Хефциба" у 2023/2024 навч. році</li>
+                                    <li>Відмінник</li>
+                                </ul>
                             </div>
+                            <span class="badge bg-design rounded-pill ms-auto">16</span>
                         </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="explore-section section-padding" id="section_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="mb-4">Досягнення</h2>
+                        <div class="author-image">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Ілля</span>
                         </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Медицина</button>
-                            </li>
-
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Технології</button>
-                            </li>
-                           
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-12">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Ізраїль — один із провідних розробників сучасного діагностичного обладнання</h5>
-                                                            <p class="mb-0">Найновіший винахід — мінівідеокамера, яку ковтають у таблетці, що дозволяє лікарям спостерігати за розладами травлення та діагностувати рак.</p>
-                                                        </div>
-
-                                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
-                                                
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Ізраїль — одна з провідних країн у лікуванні раку</h5>
-                                                            <p class="mb-0">У Техніоні вчені винайшли детектор, який дозволить за видихом миттєво визначити не лише наявність у пацієнта онкологічних захворювань, а й тип та розташування пухлини, що зробить революцію в діагностиці онкології.</p>
-                                                        </div>
-
-                                                        <span class="badge bg-design rounded-pill ms-auto">100</span>
-                                                    </div>
-
-                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Провідні позиції в лікуванні захворювань серця</h5>
-                                                            <p class="mb-0">Ізраїльські дослідники розробили новий пристрій, який допомагає серцю перекачувати кров. Апарат працює на основі унікальної сенсорної системи, яка повторює механічну роботу серця, підтримуючи його. Цей винахід дозволяє врятувати життя людям із серцевими захворюваннями.</p>
-                                                        </div>
-
-                                                        <span class="badge bg-design rounded-pill ms-auto">100</span>
-                                                    </div>
-
-                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Найменший у світі ДНК-комп'ютер</h5>
-                                                                <p class="mb-0">У 2002 р. дослідники з Інституту Вейцмана в Реховоті представили програмовану молекулярну обчислювальну машину, що складається з ферментів і молекул ДНК замість звичних кремнієвих мікрочіпів.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">30</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Перший у світі USB-флеш-накопичувач</h5>
-                                                                <p class="mb-0">Найперші USB-флеш-накопичувачі (або просто флешки) з'явилися у 2000 році. Їх винайшли співробітники ізраїльської компанії M-Systems під керівництвом Дова Морана.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">65</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">ICQ — онлайн-месенджер</h5>
-                                                                <p class="mb-0">Перша версія легендарного месенджера ICQ була розроблена в 1996 р. чотирма студентами Тель-Авівського університету: Аріком Варді, Яіром Ґолдфінґером, Сефі Віґісером та Амноном Аміром, які створили компанію Mirabilis. Уже через пів року компанія рапортувала про перший мільйон користувачів, а через два роки база користувачів ICQ збільшувалася на 1 млн приблизно кожні три тижні.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Check Point — світовий стандарт в IT-безпеці</h5>
-                                                                <p class="mb-0">У 1993 р. 25-річний випускник елітного підрозділу ЦАХАЛу 8200 Ґіль Швед разом із двома партнерами заснував компанію Check Point. Check Point розробляє програмні та апаратні системи забезпечення безпеки, включаючи міжмережеві екрани та засоби організації віртуальних приватних мереж.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Mobileye — система безпеки водіння</h5>
-                                                                <p class="mb-0">Система допомоги водієві Mobileye розроблена для підвищення безпеки під час руху дорогами загального користування. Основні компоненти системи — цифрова камера та мікропроцесор, які встановлюються під лобовим склом. Зображення з камери у цифровому вигляді передається процесору, завдання якого — обробка та аналіз інформації в реальному часі. Таким чином вдається визначити відстань до об'єктів попереду: автомобілів, пішоходів і навіть великих собак.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Indigo Digital Press — перший кольоровий цифровий друкарський прес</h5>
-                                                                <p class="mb-0">Ізраїльська компанія Indigo була заснована у 1977 р. підприємцем Бені Ландою. У 1993 р. Ланда представив світові E-Print 1000 — перший цифровий друкарський прес, який міг друкувати кольорові зображення. В основу E-Print 1000 лягла технологія цифрового офсетного друку. На основі розробок Indigo були запущені у производство цифрові друкарські машини HP Indigo Press.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">StoreDot — зарядка смартфона за 1 хвилину</h5>
-                                                                <p class="mb-0">Представники ізраїльської стартап-компанії StoreDot продемонстрували на конференції Microsoft Think Next 2014 прототип пристрою, здатного зарядити батарею смартфона Samsung Galaxy S4 за 30 секунд. Використовувана StoreDot технологія швидкої зарядки базується на дослідженнях хвороби Альцгеймера, що проводилися в Тель-Авівському університеті.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Powermat — бездротовий зарядний пристрій</h5>
-                                                                <p class="mb-0">У 2013 р. ізраїльська компанія Powermat Technologies представила бездротовий зарядний пристрій для iPhone 5 на Mobile World Congress у Барселоні. Новинка є футляром-зарядкою та додатковою батареєю, яка подвоює час автономної роботи телефону.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-md-6 col-12">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    
-                                                        <div class="d-flex">
-                                                            <div>
-                                                                <h5 class="mb-2">Trusteer — IT-безпека для фінансових структур</h5>
-                                                                <p class="mb-0">Ізраїльська стартап-компанія Trusteer розробляє програмні рішення у сфері інформаційної безпеки. Стартап зосередився на рішеннях для фінансового сектору — 7 з 10 провідних банків США та 9 з 10 найбільших банків Великої Британії використовують технології Trusteer.</p>
-                                                            </div>
-
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                        </div>
-
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                                </div>
-                                            </div>
-                                    </div>
-
-                                <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Інвестиції</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="custom-block custom-block-overlay">
-                                                <div class="d-flex flex-column h-100">
-                                                    <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
-
-                                                    <div class="custom-block-overlay-text d-flex">
-                                                        <div>
-                                                            <h5 class="text-white mb-2">Фінанси</h5>
-
-                                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
-                                                        </div>
-
-                                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                                    </div>
-
-                                                    <div class="social-share d-flex">
-                                                        <p class="text-white me-4">Share:</p>
-
-                                                        <ul class="social-icon">
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-twitter"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-facebook"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-pinterest"></a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                                    </div>
-
-                                                    <div class="section-overlay"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Composing Song</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Online Music</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Podcast</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Graduation</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-education rounded-pill ms-auto">80</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Educator</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-education rounded-pill ms-auto">75</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-            </section>
-            <section class="contact-section section-padding section-bg" id="section_5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-12 text-center">
-                            <h2 class="mb-5">Контакти</h2>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                            <h4 class="mb-3">Запоріжжя, Україна</h4>
-
-                            <hr>
-
-                            <p class="d-flex align-items-center mb-1">
-                                <span class="me-2">Телефон</span>
-
-                                <a href="tel: 305-240-9671" class="site-footer-link">
-                                    +380 98 917 4014
-                                </a>
-                            </p>
-
-                           
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </main>
-
-<footer class="site-footer section-padding">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-12 mb-4 pb-2">
-                        <a class="navbar-brand mb-2" href="index.html">
-                            <i class="bi-back"></i>
-                            <span>Проєкт</span>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <h6 class="site-footer-title mb-3">Ресурси</h6>
-
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Головна сторінка</a>
-                            </li>
-
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Досягнення</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Контакти</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                        <h6 class="site-footer-title mb-3">Інформація</h6>
-
-                        <p class="text-white d-flex mb-1">
-                            <a href="tel: 305-240-9671" class="site-footer-link">
-                                +380 98 917 4014
-                            </a>
-                        </p>
-
-                        <p class="text-white d-flex">
-                            <a href="mailto:ilia.zeldis@gmail.com" class="site-footer-link">
-                                ilia.zeldis@gmail.com
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. Усі права захищені.
                     </div>
                 </div>
             </div>
-        </footer>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script>
-    </body>
+        </div>
+    </section>
+
+    <section class="explore-section section-padding" id="section_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="mb-4">Досягнення</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="nav nav-tabs" id="achievementTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#medicine-pane" type="button">
+                            Медицина
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#technology-pane" type="button">
+                            Технології
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="tab-content" id="achievementContent">
+
+                <div class="tab-pane fade show active" id="medicine-pane">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Ізраїль — один із провідних розробників сучасного діагностичного обладнання</h5>
+                                        <p>Найновіший винахід — мінівідеокамера, яку ковтають у таблетці, що дозволяє лікарям спостерігати за розладами травлення та діагностувати рак.</p>
+                                    </div>
+                                    <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                </div>
+                                <div class="topic-art art-medical"><i class="bi bi-camera2"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Ізраїль — одна з провідних країн у лікуванні раку</h5>
+                                        <p>У Техніоні вчені винайшли детектор, який дозволить за видихом миттєво визначити не лише наявність у пацієнта онкологічних захворювань, а й тип та розташування пухлини.</p>
+                                    </div>
+                                    <span class="badge bg-design rounded-pill ms-auto">100</span>
+                                </div>
+                                <div class="topic-art art-cancer"><i class="bi bi-heart-pulse"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Провідні позиції в лікуванні захворювань серця</h5>
+                                        <p>Ізраїльські дослідники розробили новий пристрій, який допомагає серцю перекачувати кров. Апарат працює на основі унікальної сенсорної системи, яка підтримує механічну роботу серця.</p>
+                                    </div>
+                                    <span class="badge bg-design rounded-pill ms-auto">100</span>
+                                </div>
+                                <div class="topic-art art-heart"><i class="bi bi-heart-fill"></i></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="technology-pane">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Найменший у світі ДНК-комп'ютер</h5>
+                                        <p>У 2002 р. дослідники з Інституту Вейцмана в Реховоті представили програмовану молекулярну обчислювальну машину, що складається з ферментів і молекул ДНК.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                </div>
+                                <div class="topic-art art-dna"><i class="bi bi-diagram-3"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Перший у світі USB-флеш-накопичувач</h5>
+                                        <p>Найперші USB-флеш-накопичувачі з'явилися у 2000 році. Їх винайшли співробітники ізраїльської компанії M-Systems під керівництвом Дова Морана.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                </div>
+                                <div class="topic-art art-usb"><i class="bi bi-usb-drive"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">ICQ — онлайн-месенджер</h5>
+                                        <p>Перша версія ICQ була розроблена в 1996 р. чотирма студентами Тель-Авівського університету, які створили компанію Mirabilis.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-chat"><i class="bi bi-chat-dots"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Check Point — світовий стандарт в IT-безпеці</h5>
+                                        <p>У 1993 р. Ґіль Швед разом із двома партнерами заснував компанію Check Point, яка розробляє системи інформаційної безпеки.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-security"><i class="bi bi-shield-lock"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Mobileye — система безпеки водіння</h5>
+                                        <p>Система допомоги водієві Mobileye підвищує безпеку руху, використовуючи цифрову камеру та мікропроцесор для аналізу інформації в реальному часі.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-car"><i class="bi bi-car-front"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Indigo Digital Press — перший кольоровий цифровий друкарський прес</h5>
+                                        <p>Ізраїльська компанія Indigo була заснована у 1977 р. Бені Ландою. У 1993 р. він представив E-Print 1000 — цифровий друкарський прес для кольорових зображень.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-print"><i class="bi bi-printer"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">StoreDot — зарядка смартфона за 1 хвилину</h5>
+                                        <p>Ізраїльський стартап StoreDot продемонстрував технологію швидкої зарядки, що базується на дослідженнях Тель-Авівського університету.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-charge"><i class="bi bi-lightning-charge"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Powermat — бездротовий зарядний пристрій</h5>
+                                        <p>У 2013 р. ізраїльська компанія Powermat Technologies представила бездротовий зарядний пристрій для iPhone 5.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-wireless"><i class="bi bi-phone"></i></div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <article class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Trusteer — IT-безпека для фінансових структур</h5>
+                                        <p>Ізраїльська стартап-компанія Trusteer розробляє програмні рішення у сфері інформаційної безпеки для фінансового сектору.</p>
+                                    </div>
+                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                </div>
+                                <div class="topic-art art-finance"><i class="bi bi-bank"></i></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section section-padding section-bg" id="section_5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center">
+                    <h2 class="mb-5">Контакти</h2>
+                </div>
+
+                <div class="col-lg-5 col-md-7 col-12 mx-auto">
+                    <div class="contact-card">
+                        <h4 class="mb-3">Запоріжжя, Україна</h4>
+                        <hr>
+                        <p><span class="me-2">Телефон:</span>
+                            <a href="tel:+380989174014">+380 98 917 4014</a>
+                        </p>
+                        <p><span class="me-2">Email:</span>
+                            <a href="mailto:ilia.zeldis@gmail.com">ilia.zeldis@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12 mb-4 pb-2">
+                <a class="navbar-brand mb-2" href="#section_1">
+                    <i class="bi bi-back"></i>
+                    <span>Проєкт</span>
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <h6 class="site-footer-title mb-3">Ресурси</h6>
+                <ul class="site-footer-links">
+                    <li><a href="#section_1">Головна сторінка</a></li>
+                    <li><a href="#section_2">Досягнення</a></li>
+                    <li><a href="#section_5">Контакти</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                <h6 class="site-footer-title mb-3">Інформація</h6>
+                <p><a class="site-footer-link" href="tel:+380989174014">+380 98 917 4014</a></p>
+                <p><a class="site-footer-link" href="mailto:ilia.zeldis@gmail.com">ilia.zeldis@gmail.com</a></p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                <p class="copyright-text mt-lg-5 mt-4">© 2026 Фінальний проєкт. Усі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
